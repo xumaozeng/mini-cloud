@@ -1,0 +1,20 @@
+/**index.wxss**/
+
+
+button {
+  margin-bottom: 20px;
+}
+
+.run-data {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+image {
+  width: 200px;
+  height: 200px;
+}
+
+.books {
+  text-align: center;
+}

@@ -1,0 +1,10 @@
+<button type="primary" bindtap="btnTap">获取微信步数</button>
+<text class="run-data">{{runData}}</text>
+
+<button type="primary" bindtap="btnScan">扫码识别图书</button>
+
+<view class="books">
+  <image mode="aspectFit" src="{{cover_url}}"></image>
+  <view>{{title}}</view>
+</view>
+<!-- <button type="primary" bindtap="btnGoToPoster">生成海报</button> -->

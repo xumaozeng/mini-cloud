@@ -1,0 +1,5 @@
+<!--miniprogram/pages/canvas/index.wxml-->
+<view>
+  <canvas type="2d" id="myCanvas"></canvas>
+  <button type="primary" bindtap="btnSavePoster">生成海报</button>
+</view>
