@@ -44,7 +44,7 @@ Page({
             const isRepeat = booksData.every(item => item.isbn !== isbn)
             if (!isRepeat) {
               wx.showToast({
-                title: '云数据库中已存在，请重新上传！',
+                title: '数据库中已存在',
                 icon: "error"
               })
             } else {
