@@ -29,7 +29,6 @@ Page({
   // 扫码识别图书
   btnScan() {
     wx.scanCode({
-      onlyFromCamera: true,
       success: res1 => {
         // res.result是版号ISBN
         wx.cloud.callFunction({
