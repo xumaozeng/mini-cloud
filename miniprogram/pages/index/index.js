@@ -46,12 +46,11 @@ Page({
                 title: '数据库中已存在',
                 icon: "error"
               })
-            } else {
-              this.setData({
-                title: res2.result.title,
-                cover_url: res2.result.cover_url
-              })
             }
+            this.setData({
+              title: res2.result.title,
+              cover_url: res2.result.cover_url
+            })
           }
         })
       }
